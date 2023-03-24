@@ -15,6 +15,8 @@ namespace SalesWeb.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = "Salles Web MVC App from C#";
+
             return View();
         }
 
